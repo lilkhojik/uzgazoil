@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/1647177701_1-abrakadabra-fun-p-fon-dlya-saita-shkoli-1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link__img{
+    width: 250px;
+    height: 150px;
+    margin-top: 5px;
+}
+.header__title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.list__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    font-family:Verxdana, Geneva, Tahoma, sans-serif;
+    color: ghostwhite;
+}
+.title__list{
+    background-color: black;
+    padding: 0 5px;
+}
+.uzb{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ned{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ger{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+}
